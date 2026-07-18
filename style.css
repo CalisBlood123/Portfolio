@@ -3,10 +3,7 @@
     padding: 0px;
 }
 
-:root {
-    --color-prim: #f5f5f5;
-}
-
 nav {
-    color: #9c3b3b;
+    display: flex;
+    background-color: #f5f5f5;
 }
