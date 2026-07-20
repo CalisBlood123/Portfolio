@@ -22,7 +22,7 @@ nav {
     gap: 10px;
     list-style: none;
     margin: 0px;
-    padding: 0px;    
+    padding: 0px;
 }
 
 .L {
@@ -33,9 +33,13 @@ nav {
 .enter {
     display: flex;
     justify-content: center;
-    font-size: 1.5rem !important;
+    font-size: 1.3rem !important;
     flex-direction: column;
     height: 100vh;
     background-color: #f3f3f3;
     gap: 30px !important;
+}
+
+.car-p {
+    width: 100vh;
 }
