@@ -47,7 +47,6 @@
 
             <div class="car-p">
                 <div class="card" style="width: 50rem;">
-
                     <div class="car-p">
                         <div id="carouselExampleCaptions" class="carousel slide pb-5">
                             <div class="carousel-indicators ">
@@ -98,14 +97,10 @@
                     </div>
                 </div>
             </div>
-
-
-
-
         </section>
-        <section class="container c-grind mb-3">
+        <section class="container c-grind my-3">
             <div class="row c-grind">
-                <div class="col-6 text-center border-end border-3">
+                <div class="c-b col-6 text-center border-end border-3">
                     <div class="text-center">
                         <h2 class="fs-1">Sobre mí</h2>
                         <p class="text-start fs-5">
@@ -131,27 +126,37 @@
 
             </div>
         </section>
-        <section class="py-4 form-all">
-            <div>
+
+
+
+
+
+
+
+
+
+        <section class="container py-4 form-all text-center">
+            <form id="f">
                 <h2>Hablemos del proyecto</h2>
                 <p>¿Tienes una idea en mente? Escríbeme y le damos forma.</p>
-            </div>
-            <form id="f">
-                <div>
-                    <div>
-                        <label>Nombre</label>
-                        <input id="name" placeholder="Tu nombre" type="text" />
-                    </div>
-                    <div>
-                        <label>Email</label>
-                        <input id="email" placeholder="tu@email.com" type="email" />
-                    </div>
+                <div class="row">
+                    
+
+                <div class="col-6">
+                    <label>Nombre:</label>
+                    <input class="L-form" id="name" placeholder="Tu nombre" type="text" />
                 </div>
-                <div>
-                    <label>Mensaje</label>
-                    <textarea id="message" placeholder="Cuéntame sobre tu proyecto..." rows="4"></textarea>
+                <div class="col-6">
+                    <label>Email:</label>
+                    <input class="L-form" id="email" placeholder="tu@email.com" type="email" />
                 </div>
-                <div>
+                </div>
+                <div class="row text-center">
+                <div class="col-11">
+                    <label class="">Mensaje:</label>
+                    <textarea class="L-form" id="message" placeholder="Cuéntame sobre tu proyecto..." rows="4" cols="40"></textarea>
+                </div>
+                <div class="col-1">
                     <button type="button">
                         Enviar Mensaje
                     </button>

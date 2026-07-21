@@ -9,7 +9,7 @@
 
 :root {
     --bright-snow: #f8f9faff;
-    --platinum: #d3df96;
+    --platinum: #e9ecefb0;
     --alabaster-grey: #dee2e6ff;
     --pale-slate: #ced4daff;
     --pale-slate-2: #adb5bdff;
@@ -18,7 +18,7 @@
     --gunmetal: #343a40ff;
     --carbon-black: #212529ff;
     --wasd: #6b7051;
-    --wasd-2: #828864;
+    --wasd-2: #d3df96;
 }
 
 nav {
@@ -65,7 +65,7 @@ nav {
 }
 
 main {
-    background-color: var(--bright-snow);
+    background-color: var(--wasd-2);
 }
 
 .car-p {
@@ -73,9 +73,13 @@ main {
     justify-content: center;
 }
 
+.c-b {
+    border-color: var(--wasd) !important;
+}
+
 .card {
     border: none;
-    background-color: var(--bright-snow);
+    background-color: var(--wasd-2);
 }
 
 .list-h {
@@ -83,5 +87,19 @@ main {
 }
 
 .form-all {
-    background-color: var(--platinum);
+    background-color: var(--wasd-2);
+}
+
+.L-form {
+    background-color: #ffffff00 !important;
+    border-color: var(--wasd);
+    border: none;
+    border-bottom: #6b7051 0.2em double;
+}
+
+.L-form textarea {
+    background-color: #ffffff00 !important;
+    border-color: var(--wasd);
+    border: none;
+    border-bottom: #6b7051 0.5em solid !important;
 }
