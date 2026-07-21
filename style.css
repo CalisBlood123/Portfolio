@@ -103,3 +103,18 @@ main {
     border: none;
     border-bottom: #6b7051 0.1em solid !important;
 }
+
+.spa {
+    padding-top: 3rem;
+    padding-bottom: 7rem;
+}
+
+@media (max-width: 880px) {
+    .c-b {
+        border-color: #00000000 !important;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+}
