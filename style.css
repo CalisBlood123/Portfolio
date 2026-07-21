@@ -7,9 +7,21 @@
     font-style: normal;
 }
 
+:root {
+    --bright-snow: #f8f9faff;
+    --platinum: #e9ecefff;
+    --alabaster-grey: #dee2e6ff;
+    --pale-slate: #ced4daff;
+    --pale-slate-2: #adb5bdff;
+    --slate-grey: #6c757dff;
+    --iron-grey: #495057ff;
+    --gunmetal: #343a40ff;
+    --carbon-black: #212529ff;
+}
+
 nav {
     display: flex;
-    background-color: #f9f9f9;
+    background-color: var(--platinum);
 }
 
 .I-nav {
@@ -27,17 +39,29 @@ nav {
 
 .L {
     text-decoration: none;
-    color: inherit; 
+    color: inherit;
 }
 
-    .enter {
-        display: flex;
+.L-1 {
+    text-decoration: none;
+    color: inherit;
+    color: var(--bright-snow);
+    background-color: var(--slate-grey);
+    border-color: var(--slate-grey) !important;
+}
+
+.enter {
+    display: flex;
     justify-content: center;
     font-size: 1.3rem !important;
     flex-direction: column;
     height: 100vh;
-    background-color: #f3f3f3;
+    background-color: var(--bright-snow);
     gap: 30px !important;
+}
+
+main {
+    background-color: var(--bright-snow);
 }
 
 .car-p {
@@ -47,6 +71,10 @@ nav {
 
 .card {
     border: none;
+    background-color: var(--bright-snow);
+}
+
+.c-grind {
 }
 
 .list-h {
