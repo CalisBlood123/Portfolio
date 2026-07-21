@@ -97,9 +97,9 @@ main {
     border-bottom: #6b7051 0.2em double;
 }
 
-.L-form textarea {
+.L-form-2 {
     background-color: #ffffff00 !important;
     border-color: var(--wasd);
     border: none;
-    border-bottom: #6b7051 0.5em solid !important;
+    border-bottom: #6b7051 0.1em solid !important;
 }
