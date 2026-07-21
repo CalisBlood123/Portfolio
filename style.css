@@ -27,11 +27,11 @@ nav {
 
 .L {
     text-decoration: none;
-    color: inherit;  
+    color: inherit; 
 }
 
-.enter {
-    display: flex;
+    .enter {
+        display: flex;
     justify-content: center;
     font-size: 1.3rem !important;
     flex-direction: column;
@@ -41,5 +41,14 @@ nav {
 }
 
 .car-p {
-    width: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    border: none;
+}
+
+.list-h {
+    list-style: none;
 }
