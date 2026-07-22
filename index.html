@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    
+
     <header id="inicio">
         <nav class="navbar fixed-top px-4">
             <a href="#inicio" class="L fs-4">Portfolio</a>
@@ -90,7 +90,7 @@
                 <div class="c-b col-6 text-center border-end border-3">
                     <div class="text-center">
                         <h2 class="fs-1">Sobre mí</h2>
-                        <p class="text-start fs-5">
+                        <p class="fs-5 p-p">
                             Soy un desarrollador web en formación apasionado por el diseño y la creación de páginas web
                             modernas, responsivas y funcionales. Actualmente me especializo en HTML5, CSS3 y Bootstrap,
                             desarrollando interfaces atractivas que se adaptan a cualquier dispositivo.
@@ -113,22 +113,22 @@
             </div>
         </section>
         <section class="spa text-center" id="f">
-            <form class="pt-2">
+            <form class="pt-2" action="https://formspree.io/f/xpqvjlag" method="post">
                 <h2>Hablemos del proyecto</h2>
                 <p>¿Tienes una idea en mente? Escríbeme y le damos forma.</p>
                 <div class="N-form">
                     <label>Nombre:</label>
-                    <input class="L-form" id="name" placeholder="Tu nombre" type="text" />
-                    <label>Email:</label>
-                    <input id="email" class="L-form" placeholder="tu@email.com" type="email" />
+                    <input class="L-form" id="name" placeholder="Tu nombre" type="text"/>
+                    <label for="email">Email:</label>
+                    <input name="email" id="email" class="L-form" placeholder="tu@email.com" type="email" />
                     <label>Mensaje:</label>
-                    <textarea class="L-form-2" rows="5" id="message" placeholder="Cuéntame sobre tu proyecto..."></textarea>
-                    <button class="L-1 border rounded-5 p-2 mt-4 px-3" type="button">Enviar Mensaje</button>
+                    <textarea name="message" class="L-form-2" rows="5" id="message placeholder="Cuéntame sobre tu proyecto..."></textarea>
+                    <button type="submit" class="L-1 border rounded-5 p-2 mt-4 px-3" type="button">Enviar Mensaje</button>
                 </div>
             </form>
         </section>
         <ul class="pb-2 M-st">
-            <li><a href="https://github.com/CalisBlood123"><img src="Image/GitHub.png" class="M-img" alt="">GitHub</a></li>
+            <li><a target="_blank" href="https://github.com/CalisBlood123"><img src="Image/GitHub.png" class="M-img" alt="">GitHub</a></li>
         </ul>
     </main>
 

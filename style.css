@@ -153,6 +153,11 @@ main {
     transition: transform 0.25s ease, border-color 0.25s ease;
 }
 
+.p-p {
+    display: flex;
+    text-align: left;
+}
+
 .spa {
     padding-top: 3rem;
     padding-bottom: 7rem;
@@ -202,6 +207,18 @@ main {
     width: 100%;
     max-width: 50rem; /* conserva el tamaño grande en pantallas anchas */
     }
+
+    .list-h {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .p-p {
+        text-align: center;
+        padding-bottom: 5rem;
+    }
 }
 
 @media (max-width: 500px) {
@@ -219,4 +236,5 @@ main {
     .L-form-2 {
         width: 75%;
     }
+
 }
