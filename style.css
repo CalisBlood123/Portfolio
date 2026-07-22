@@ -1,6 +1,13 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: "Poppins", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h1 {
     font-family: "Kameron", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -82,12 +89,13 @@ main {
     background-color: var(--wasd-2);
 }
 
-.list-h {
-    list-style: none;
+.card {
+    width: 100% !important;
+    max-width: 50rem !important; /* mantiene el tamaño grande en desktop */
 }
 
-.form-all {
-    background-color: var(--wasd-2);
+.list-h {
+    list-style: none;
 }
 
 .L-form {
@@ -95,6 +103,17 @@ main {
     border-color: var(--wasd);
     border: none;
     border-bottom: #6b7051 0.2em double;
+}
+
+.N-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 3em;
+    align-items: flex-start;
+    gap: 1rem;
+    font-size: 1.3rem;
+    box-sizing: border-box;
 }
 
 .L-form-2 {
@@ -107,6 +126,7 @@ main {
 .spa {
     padding-top: 3rem;
     padding-bottom: 7rem;
+    background-color: var(--wasd-2);
 }
 
 @media (max-width: 880px) {
@@ -116,5 +136,27 @@ main {
 
     .col-6 {
         width: 100%;
+    }
+
+    .card {
+    width: 100%;
+    max-width: 50rem; /* conserva el tamaño grande en pantallas anchas */
+    }
+}
+
+@media (max-width: 500px) {
+    .L-form {
+    width: 75%;
+    }
+
+    .N-form {
+    width: 100% !important;
+    padding-left: 0 !important;
+    align-items: center;
+    font-size: 1rem;
+    }
+
+    .L-form-2 {
+        width: 75%;
     }
 }

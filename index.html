@@ -8,10 +8,13 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&display=swap');
     </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Digital Portfolio | Web Designer</title>
+    <title>Gabriel Ortiz | Desarrollador Web</title>
 </head>
 
 <body>
@@ -36,7 +39,7 @@
             <h1>Diseñador Web y Creativo Digital</h1>
             <p>Cada proyecto es una oportunidad para aprender, mejorar y crear experiencias web de calidad</p>
             <div>
-                <a href="#P" class="L L-1 border rounded-5 p-2 px-3">Ver
+                <a href="#P" class="L-1 border rounded-5 p-2 px-3">Ver
                     proyectos</a>
             </div>
 
@@ -46,7 +49,7 @@
             <h2 class="my-5 mb-4">Proyectos Destacados</h2>
 
             <div class="car-p">
-                <div class="card mb-5" style="width: 50rem;">
+                <div class="card mb-5">
                     <div class="car-p">
                         <div id="carouselExampleCaptions" class="carousel slide pb-5">
                             <div class="carousel-indicators ">
@@ -59,27 +62,20 @@
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="Image/Budin.png"
-                                        class="d-block" alt="...">
+                                    <img src="Image/Budin.png" class="rounded-3 d-block w-100" alt="...">
                                     <div class="carousel-caption d-none d-md-block">
-                                        <h5>First slide label</h5>
-                                        <p>Some representative placeholder content for the first slide.</p>
+                                        <h5 class="text-black">Recetas de Cocina</h5>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAsY7TaRhHvPKtlSSQ_83uGfVR25uaWXjOAhbPHXxNyypSYLElO60iRz26HxMRV9FzNTaI7wo543LbEtzIX2HMknytnUSrBxjDV9a8tJQcYI7dfVMNnv-FEuvEQ6_GBpyaG6dtgzMoLIRTOGZSNZfJms5MS5aFspLW6LFEVclfxJblERAdc3-W08joMH_4BnJFDkGyhjKHVW2jqL6hr43DiqjUxgy9ybHK9aSKljcJZLoaSk732-34QQeskhWjVShM6slBEB6e496w"
-                                        class="d-block" alt="...">
+                                    <img src="Image/Banderas.png" class="rounded-3 d-block w-100" alt="...">
                                     <div class="carousel-caption d-none d-md-block">
-                                        <h5>Second slide label</h5>
-                                        <p>Some representative placeholder content for the second slide.</p>
+                                        <h5>Informaciones de Banderas</h5>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBJiYZkW6u1CS7jg__tQ7yfVk9UnWG1_hHlnRjpYtK7MOiB_-Q-c_bLBGZ4R5DoN_BchNkeyRf2NWj-9CbhcMF3G0w-uqRdHg7aW0FuEBFXdr5-0KABICZF-EUmkuYD2xTekLcF2XEcwuHqjB08ZPrQtakYg_BbchYCJM-lWJo0E79NKo2ii1s3NmUl83mhrlH-4C7K448H7NSnHgkdmROhKL8y05__0Tv59DSFFOyMDDmKIWYkBbyvs25hccVHAZWrMyKptocig2c"
-                                        class="d-block" alt="...">
+                                    <img src="Image/None.png" class="rounded-3 d-block w-100" alt="...">
                                     <div class="carousel-caption d-none d-md-block">
-                                        <h5>Third slide label</h5>
-                                        <p>Some representative placeholder content for the third slide.</p>
                                     </div>
                                 </div>
                             </div>
@@ -137,55 +133,35 @@
 
 
 
-        <section class="container spa form-all text-center">
+        <section class="spa text-center">
             <form id="f">
                 <h2>Hablemos del proyecto</h2>
                 <p>¿Tienes una idea en mente? Escríbeme y le damos forma.</p>
-                <div class="row">
-                    
-
-                <div class="col-6">
+                <div class="N-form">
                     <label>Nombre:</label>
                     <input class="L-form" id="name" placeholder="Tu nombre" type="text" />
-                </div>
-                <div class="col-6">
                     <label>Email:</label>
-                    <input class="L-form" id="email" placeholder="tu@email.com" type="email" />
-                </div>
-                </div>
-                <div class="row text-center">
-                <div class="col-11">
-                    <label class="">Mensaje:</label>
-                    <textarea class="L-form-2" id="message" placeholder="Cuéntame sobre tu proyecto..." rows="4" cols="40"></textarea>
-                </div>
-                <div class="col-1">
-                    <button type="button">
-                        Enviar Mensaje
-                    </button>
+                    <input id="email" class="L-form" placeholder="tu@email.com" type="email" />
+                    <label>Mensaje:</label>
+                    <textarea class="L-form-2" id="message" placeholder="Cuéntame sobre tu proyecto..."></textarea>
+                    <button class="L-1 border rounded-5 p-2 px-3" type="button">Enviar Mensaje</button>
                 </div>
             </form>
         </section>
     </main>
 
     <footer>
-        <div>
-            <div>
-                Portfolio
-            </div>
-            <div>
-                © 2024 Digital Portfolio. Built with precision.
-            </div>
-            <ul>
-                <li><a href="#">LinkedIn</a></li>
-                <li><a href="#">Dribbble</a></li>
-                <li><a href="#">Instagram</a></li>
-            </ul>
-        </div>
+        <div>Portfolio </div>
+        <div>© 2026 Digital Portfolio. Built with precision </div>
+        <ul>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Dribbble</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
-
 </body>
 
 </html>
