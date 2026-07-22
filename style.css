@@ -14,6 +14,13 @@ h1 {
     font-style: normal;
 }
 
+.L,
+.L-1,
+.M-st a,
+.M-img {
+    transition: transform 0.25s ease, color 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease, filter 0.25s ease;
+}
+
 :root {
     --bright-snow: #f8f9faff;
     --platinum: #e9ecefb0;
@@ -53,12 +60,21 @@ nav {
     color: inherit;
 }
 
+.L:hover {
+    color: var(--carbon-black);
+}
+
 .L-1 {
     text-decoration: none;
     color: inherit;
     color: var(--bright-snow);
     background-color: var(--wasd);
     border-color: var(--wasd) !important;
+}
+
+.L-1:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(107, 112, 81, 0.22);
 }
 
 .enter {
@@ -103,6 +119,19 @@ main {
     border-color: var(--wasd);
     border: none;
     border-bottom: #6b7051 0.2em double;
+    transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.L-form:hover,
+.L-form-2:hover {
+    transform: translatey(-1px);
+}
+
+.L-form:focus,
+.L-form-2:focus {
+    outline: none;
+    border-bottom-color: var(--carbon-black);
+    transform: translatey(-1px);
 }
 
 .N-form {
@@ -121,12 +150,43 @@ main {
     border-color: var(--wasd);
     border: none;
     border-bottom: #6b7051 0.1em solid !important;
+    transition: transform 0.25s ease, border-color 0.25s ease;
 }
 
 .spa {
     padding-top: 3rem;
     padding-bottom: 7rem;
     background-color: var(--wasd-2);
+}
+
+.F-st {
+    padding: 0.2rem 1rem 0 1rem;
+}
+
+.M-st {
+    display: flex;
+    flex-direction: row;
+}
+
+.M-st li {
+    display: flex;
+    list-style: none;
+}
+
+.M-st a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--carbon-black);
+    font-size: xx-large;
+}
+
+.M-st a:hover {
+    transform: translateY(-2px) scale(1.08);
+}
+
+.M-img {
+    width: 4rem;
 }
 
 @media (max-width: 880px) {
