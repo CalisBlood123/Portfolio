@@ -35,20 +35,20 @@ h1 {
     --iron-grey: #495057ff;
     --gunmetal: #343a40ff;
     --carbon-black: #212529ff;
-    --wasd: #6b7051;
-    --wasd-2: #d3df96;
+    --green: #6b7051;
+    --green-1: #d3df96;
 }
 
 nav {
     display: flex;
     background-color: var(--platinum);
-    color: var(--wasd);
+    color: var(--green);
 }
 
 .nav-menu {
     display: flex;
     gap: 10px;
-    color: var(--wasd);
+    color: var(--green);
 }
 
 .nav-list {
@@ -72,8 +72,8 @@ nav {
     text-decoration: none;
     color: inherit;
     color: var(--bright-snow);
-    background-color: var(--wasd);
-    border-color: var(--wasd) !important;
+    background-color: var(--green);
+    border-color: var(--green) !important;
 }
 
 .cta-button:hover {
@@ -88,16 +88,15 @@ nav {
     flex-direction: column;
     height: 100vh;
     gap: 30px !important;
-    background-image: linear-gradient(rgba(41, 92, 0, 0.75), rgba(0, 0, 0, 0.75)), url(assets/codigo_binario.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 100vh;
-    color: var(--bright-snow);
+    color: var(--carbon-black);
 }
 
 main {
-    background-color: var(--wasd-2);
+    background-color: var(--green-1);
 }
 
 .carousel-wrapper {
@@ -106,12 +105,12 @@ main {
 }
 
 .about-column {
-    border-color: var(--wasd) !important;
+    border-color: var(--green) !important;
 }
 
 .project-card {
     border: none;
-    background-color: var(--wasd-2);
+    background-color: var(--green-1);
 }
 
 .project-card {
@@ -125,7 +124,7 @@ main {
 
 .form-input {
     background-color: #ffffff00 !important;
-    border-color: var(--wasd);
+    border-color: var(--green);
     border: none;
     border-bottom: #6b7051 0.2em double;
     transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
@@ -156,7 +155,7 @@ main {
 
 .form-textarea {
     background-color: #ffffff00 !important;
-    border-color: var(--wasd);
+    border-color: var(--green);
     border: none;
     border-bottom: #6b7051 0.1em solid !important;
     transition: transform 0.25s ease, border-color 0.25s ease;
@@ -170,7 +169,7 @@ main {
 .contact-section {
     padding-top: 3rem;
     padding-bottom: 7rem;
-    background-color: var(--wasd-2);
+    background-color: var(--green-1);
 }
 
 .footer-content {
